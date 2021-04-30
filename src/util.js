@@ -10,7 +10,7 @@ function chillHop() {
       audio: "https://mp3.chillhop.com/serve.php/?mp3=16075",
       color: ["#D45C4C", "#FAEE78"],
       id: uuidv4(),
-      active: false,
+      active: true,
     },
     {
       name: "Playful Obsession",
