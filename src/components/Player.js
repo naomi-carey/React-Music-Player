@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
-import { FaPlay, FaAngleLeft, FaAngleRight } from "react-icons/fa";
+import { FaPlay, FaAngleLeft, FaAngleRight, FaPause } from "react-icons/fa";
+
 const Player = ({ currentSong, isPlaying, setIsPlaying }) => {
   const audioRef = useRef(null);
   const playSongHandler = () => {
@@ -24,9 +25,15 @@ const Player = ({ currentSong, isPlaying, setIsPlaying }) => {
     );
   };
 
+  const dragHandler = (e) => {
+    audioRef.current.currentTime = e.target.value;
+    setSongInfo({ ...songInfo, currentTime: e.target.value });
+  };
+
   const [songInfo, setSongInfo] = useState({
-    currentTime: null,
-    duration: null,
+    currentTime: 0,
+
+    duration: 0,
   });
 
   return (
@@ -34,12 +41,23 @@ const Player = ({ currentSong, isPlaying, setIsPlaying }) => {
       <div className="time-control">
         <p>{getTime(songInfo.currentTime)} </p>
 
-        <input type="range" />
+        <input
+          min={0}
+          max={songInfo.duration}
+          value={songInfo.currentTime}
+          type="range"
+          onChange={dragHandler}
+        />
         <p>{getTime(songInfo.duration)}</p>
       </div>
       <div className="play-control">
         <FaAngleLeft className="skip-back" size={28} />
-        <FaPlay onClick={playSongHandler} className="play" size={28} />
+        <FaPlay
+          onClick={playSongHandler}
+          className="play"
+          size={28}
+          icon={isPlaying ? FaPause : FaPlay}
+        />
 
         <FaAngleRight className="skip-forward" size={28} />
       </div>
