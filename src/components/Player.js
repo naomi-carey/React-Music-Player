@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { FaPlay, FaAngleLeft, FaAngleRight, FaPause } from "react-icons/fa";
 
 const Player = ({
@@ -55,7 +55,7 @@ const Player = ({
           type="range"
           onChange={dragHandler}
         />
-        <p>{getTime(songInfo.duration)}</p>
+        <p>{getTime(songInfo.duration || 0)}</p>
       </div>
       <div className="play-control">
         <FaAngleLeft className="skip-back" size={28} />
