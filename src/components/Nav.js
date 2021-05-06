@@ -1,5 +1,5 @@
 import React from "react";
-import { FaMusic } from "react-icons/fa";
+// import { FaMusic } from "react-icons/fa";
 import { AiOutlineBars } from "react-icons/ai";
 import { motion } from "framer-motion";
 
