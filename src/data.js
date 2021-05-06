@@ -56,7 +56,7 @@ function chillHop() {
     },
 
     {
-      name: "Libra",
+      name: "Flashback",
       cover:
         "https://chillhop.com/wp-content/uploads/2020/12/33a2a875828118a3ff260638a88362936104879a-300x300.jpg",
       artist: "Toofpick",
