@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const Nav = ({ libraryStatus, setLibraryStatus }) => {
   return (
     <nav>
-      <h1>Beats</h1>
+      <h1>Beats Music</h1>
       <motion.button
         whileHover={{
           scale: 1.1,

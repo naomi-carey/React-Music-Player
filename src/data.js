@@ -54,6 +54,17 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
+
+    {
+      name: "Libra",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2020/12/33a2a875828118a3ff260638a88362936104879a-300x300.jpg",
+      artist: "Toofpick",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=11226",
+      color: ["#AFA8DB", "#111111"],
+      id: uuidv4(),
+      active: false,
+    },
   ];
 }
 
