@@ -27,7 +27,7 @@ const LibrarySong = ({
         };
       }
     });
-
+    console.log("he from librarySong.js");
     setSongs(newSongs);
 
     if (isPlaying) audioRef.current.play();
