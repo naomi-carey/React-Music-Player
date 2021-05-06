@@ -27,18 +27,10 @@ const LibrarySong = ({
         };
       }
     });
-    console.log("he from librarySong.js");
+
     setSongs(newSongs);
 
     if (isPlaying) audioRef.current.play();
-    // if (isPlaying) {
-    //   const playPromise = audioRef.current.play();
-    //   if (playPromise !== undefined) {
-    //     playPromise.then((audio) => {
-    //       audioRef.current.play();
-    //     });
-    //   }
-    // }
   };
 
   return (

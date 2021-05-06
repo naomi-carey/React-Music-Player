@@ -12,7 +12,6 @@ const Player = ({
   setCurrentSong,
   setSongs,
 }) => {
-  //useEffect
   const activeLibraryHandler = (nextPrev) => {
     const newSongs = songs.map((song) => {
       if (song.id === nextPrev.id) {
@@ -107,16 +106,16 @@ const Player = ({
 
         {isPlaying ? (
           <>
-            <FaPlay
+            <FaPause
               onClick={playSongHandler}
-              className="play"
+              className="pause"
               size={28}
               icon={isPlaying ? FaPause : FaPlay}
             />
           </>
         ) : (
           <>
-            <FaPause
+            <FaPlay
               onClick={playSongHandler}
               className="play"
               size={28}
