@@ -5,7 +5,7 @@ function chillHop() {
     {
       name: "Traveling",
       cover:
-        "https://cms.chillhop.com/media/12738/squarel453b13ae3c0e2eec280fcc6357800b825239806e.jpg",
+        "https://cms.chillhop.com/media/73677/squarelb1f13b18de0af32a1bf083bc7fd4fd3a2033406d.jpg",
       artist: "Anbuu",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=12133",
       color: ["#D54848", "#2E9F99"],
@@ -16,7 +16,7 @@ function chillHop() {
     {
       name: "Sunny in Saint Petersburg",
       cover:
-        "https://chillhop.com/wp-content/uploads/2021/03/7945133f0b1f4f167f056fe0c369f05f2ef415f2-1024x1024.jpg",
+        "https://cms.chillhop.com/media/16252/squarel75adfe0661d06a9ea66d9c2e99b31e92ae450ebe.jpg",
       artist: "Saib",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=16075",
       color: ["#D45C4C", "#FAEE78"],
@@ -26,7 +26,7 @@ function chillHop() {
     {
       name: "Playful Obsession",
       cover:
-        "https://chillhop.com/wp-content/uploads/2021/02/d12927eedcc2f5afba2ab049a4a1ea46c2266ae3-300x300.jpg",
+        "https://cms.chillhop.com/media/14929/squareld12927eedcc2f5afba2ab049a4a1ea46c2266ae3.jpg",
       artist: "C Y G N",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=14984",
       color: ["#483160", "#7194C1"],
@@ -37,7 +37,7 @@ function chillHop() {
     {
       name: "Paved Paths",
       cover:
-        "https://chillhop.com/wp-content/uploads/2020/09/88e7eb711f8c71d87fc102e97cf91e36f692348d-300x300.jpg",
+        "https://cms.chillhop.com/media/634/squarel6e722fd3ec0283a30b55e16b5c7228f311555133.jpg",
       artist: "Leavv",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=9918",
       color: ["#91C1B2", "#C88D65"],
@@ -47,7 +47,7 @@ function chillHop() {
     {
       name: "Libra",
       cover:
-        "https://chillhop.com/wp-content/uploads/2021/01/453b13ae3c0e2eec280fcc6357800b825239806e-300x300.jpg",
+        "https://cms.chillhop.com/media/12213/squarel33a2a875828118a3ff260638a88362936104879a.jpg",
       artist: "Oatmello, Guavas",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=1936",
       color: ["#2B9F99", "#6C937A"],
@@ -58,7 +58,7 @@ function chillHop() {
     {
       name: "Flashback",
       cover:
-        "https://chillhop.com/wp-content/uploads/2020/12/33a2a875828118a3ff260638a88362936104879a-300x300.jpg",
+        "https://cms.chillhop.com/media/9797/squarel7ba352cafecae63aa3f09a52e125ea615d2c1f9b.jpg",
       artist: "Toofpick",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=11226",
       color: ["#AFA8DB", "#111111"],
