@@ -5,7 +5,7 @@ function chillHop() {
     {
       name: "Traveling",
       cover:
-        "https://chillhop.com/wp-content/uploads/2021/01/453b13ae3c0e2eec280fcc6357800b825239806e-300x300.jpg",
+        "https://cms.chillhop.com/media/12738/squarel453b13ae3c0e2eec280fcc6357800b825239806e.jpg",
       artist: "Anbuu",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=12133",
       color: ["#D54848", "#2E9F99"],
